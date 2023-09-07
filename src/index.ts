@@ -93,11 +93,10 @@ class TiDBServerlessDriver implements Driver {
   async destroy(): Promise<void> {}
 }
 
-// TiDBServerlessConnection is a wrapper around the TiDB Serverless Connection. It also handles transactions for kysely return void in beginTransaction
+// TiDBServerlessConnection is a wrapper around the TiDB Serverless Connection, it also handles transactions.
 class TiDBServerlessConnection implements DatabaseConnection {
   #config: TiDBServerlessDialectConfig;
   #conn: Connection;
-  // Ikysely return void for beginTransaction, so we include a txClient in TiDBServerlessConnection
   #txClient?: TiDBServerlessTransaction;
 
   constructor(config: TiDBServerlessDialectConfig) {
