@@ -36,7 +36,7 @@
     "@tidbcloud/serverless": "*"
   },
   "devDependencies": {
-    "@tidbcloud/serverless": "0.0.2",
+    "@tidbcloud/serverless": "0.0.3",
     "@tsconfig/node14": "^1.0.3",
     "kysely": "^0.26.3",
     "prettier": "^2.7.1",

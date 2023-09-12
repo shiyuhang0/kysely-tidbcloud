@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@tidbcloud/serverless':
-    specifier: 0.0.2
-    version: 0.0.2
+    specifier: 0.0.3
+    version: 0.0.3
   '@tsconfig/node14':
     specifier: ^1.0.3
     version: 1.0.3
@@ -275,8 +275,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@tidbcloud/serverless@0.0.2:
-    resolution: {integrity: sha512-u6frQPEvqVg13lXRETVv7FjuvOv4QsU4LiffiClWGaR1aHvngUrvP4LEaiyu0mR1fYorIrFOUcUGnpCz/EtJXA==}
+  /@tidbcloud/serverless@0.0.3:
+    resolution: {integrity: sha512-s/Lj6Z2/bYd9ljHSh2tLElaXgVQj+HtMV8srw5rO2kV0DGtePzJwd2Cx6JEeo2ZmdqZa7BX/Vn8wdDEOh/hyqA==}
     engines: {node: '>=16'}
     dev: true
 
